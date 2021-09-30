@@ -1,0 +1,329 @@
+{
+	"changeLanguagePage": {
+		"changeLanguageAppBarTitle": "لغة",
+		"selectLanguage": "اختار اللغة",
+		"englishString": "الإنجليزية",
+		"hindiString": "الهندية",
+		"arabicString": "عربى",
+		"chineseString": "صينى",
+		"confirmString": "تغيير اللغة؟",
+		"sureDialogueString": "هل أنت متأكد أنك تريد تغيير إعداد اللغة هذا؟",
+		"closeString": "إغلاق",
+		"yesString": "نعم"
+	},
+
+	"splashScreen": {
+		"onDemandString": "التسليم عند الطلب متاح 24 × 7"
+	},
+
+	"walkthroughPage": {
+		"welcome": "مرحبا بك",
+		"signInToContinue": "قم بتسجيل الدخول للمتابعة",
+		"signUpToContinue": "قم بإنشاء حساب للمتابعة",
+		"email": "  البريد الإلكتروني  ",
+		"password": "كلمة المرور",
+		"forgotPassword": "نسيت كلمة المرور ؟",
+		"signIn": "تسجيل الدخول",
+		"signUp": "إنشاء حساب",
+		"onDemandString": "التسليم عند الطلب متاح 24 × 7",
+		"sendPackagesString": "إرسال الحزم",
+		"sendPackagesDescString": "انتقاء وإسقاط عناصر مثل المفاتيح وأجهزة الشحن والمستندات في المدينة",
+		"orderFoodString": "اطلب الطعام",
+		"orderFoodDescString": "اطلب الطعام من مطعمك المفضل وسنقوم بتوصيله",
+		"orderGroceryString": "اطلب البقالة",
+		"orderGroceryDescString": "اطلب البقالة من السوبر ماركت أو متجر البقالة وسنقوم بتوصيلها",
+		"getStartedString": "ابدأ مع CourierWay",
+		"enterMobileNumberString": "أدخل رقم هاتفك المحمول",
+		"pressBackOnceAgainString": "اضغط على رجوع مرة أخرى للخروج."
+	},
+	"signUpScreen": {
+		"welcome": "مرحبا بك",
+		"signUpToContinue": "قم بإنشاء حساب للمتابعة",
+		"username": "اسم المستخدم",
+		"pleaseEnterUsername": "الرجاء إدخال اسم المستخدم",
+		"phoneNumber": "رقم الهاتف: *مطلوب",
+		"pleaseEnterValidNumber": "الرجاء إدخال رقم هاتف صحيح",
+		"email": "البريد الإلكتروني",
+		"pleaseEnterValidEmail": "الرجاء إدخال بريد إلكتروني صحيح",
+		"password": "كلمة المرور",
+		"pleaseEnterGoodPassword": "الرجاء إدخال كلمة مرور جيدة",
+		"pleaseConfirmPassword": "الرجاء تأكيد كلمة المرور",
+		"confirmPassword": "تأكيد كلمة المرور",
+		"youEnteredDifferentPasswords": "لقد قمت بإدخال كلمة مرور مختلفة",
+		"Address": "العنوان الدائم",
+		"pleaseEnterRealAddress": "الرجاء إدخال عنوان صحيح",
+		"createAccount": "إنشاء حساب"
+	},
+
+	"loginPage": {
+		"enterMobileNumberString": "أدخل رقم هاتفك المحمول",
+		"createAccountString": "قم بإنشاء حساب برقم هاتفك المحمول",
+		"mobileNumberString": "رقم الهاتف المحمول",
+		"continueString": "استمر"
+	},
+
+	"otpScreen": {
+		"verifyDetailsString": "تحقق من التفاصيل",
+		"enterOTPString": "أدخل OTP المرسل إلى رقم هاتفك المحمول",
+		"continueString": "استمر",
+		"pleaseWaitString": "أرجو الإنتظار.."
+	},
+
+	"bottomBar": {
+		"homeString": "منزل",
+		"searchString": "بحث",
+		"ordersString": "طلب",
+		"notificationsString": "إشعارات",
+		"walletString": "محفظة نقود",
+		"pressBackOnceAgainString": "اضغط على رجوع مرة أخرى للخروج."
+	},
+	
+	"homePage": {
+		"homeString": "الرئيسية",
+		"searchString": "البحث",
+		"ordersString": "الطلبات",
+		"profileString": "حسابي",
+		"superString": " سوبر",
+		"marketString": "ماركت",
+		"labsString": " نتائج",
+		"resultsString": "تحاليل",
+		"documentsString": "مستندات",
+		"drugsString": "الحبوب و",
+		"medicineString": " الأدوية",
+		"foodString": "الأطعمة و",
+		"drinksString": "المشروبات",
+		"giftsString": "الهدايا",
+		"ticketsString": "تذاكر",
+		"telecomsStrings": "اتصالات",
+		"welcomeString": "مرحبًا بكم في CourierWay",
+		"inviteFriendString": "قم بدعوة الأصدقاء إلى Courier Pro لكسب ما يصل إلى 20 دولارًا أمريكيًا CourierWay Cash",
+		"sendPackagesString": "إرسال الحزم",
+		"sendPackagesDescString": "إرسال الحزم إلى أي مكان وفي أي وقت.",
+		"getFoodDeliverString": "احصل على توصيل الطعام",
+		"getFoodDeliverDescString": "اطلب الطعام وسنقوم بتوصيله.",
+		"getGroceryDeliverString": "احصل على توصيل البقالة",
+		"getGroceryDeliverDescString": "اطلب البقالة من متجرك المفضل وسنقوم بتوصيلها"
+	},
+
+	"sendPackagePage": {
+		"headerDocumentString": "مستندات",
+		"headerParcelString": "طرد",
+		"orderTypeProductsString": "منتجات",
+		"orderTypeString": "نوع الطلب",
+		"addCouponString": "إضافة كوبون",
+		"cashOnDeliveryString": "الدفع عند الإستلام",
+		"pleaseEnterFullDescription": "الرجاء إدخال التفاصيل بالكامل",
+		"superMarketAppBarString": "المتجر",
+		"orderString": "اطلب",
+		"superMarketDescriptionString": "التفاصيل",
+		"couponString": "كوبون",
+		"selectPackageTypeString": "حدد نوع الحزمة",
+		"enterPackageSizeWeightString": "أدخل حجم ووزن العبوة",
+		"selectPickupAddressString": "حدد عنوان الاستلام",
+		"selectDeliveryAddressString": "حدد عنوان التسليم",
+		"confirmDetailsString": "تأكيد التفاصيل",
+		"documentsString": "مستندات",
+		"parcelString": "الطرد",
+		"heightString": "ارتفاع",
+		"orderTypeLapsResultsString": "نتيجة تحليل",
+		"enterGiftSizeAppBarString": "الهدايا",
+		"lapsResultsAppBarString": "نتائج تحاليل",
+		"foodAndDrinksAppBarString": "الأكل والمشروبات",
+		"orderTypeFoodAndDrinksDeliveryString": "أكل ومشروبات",
+		"pleaseEnterHeightString": "الرجاء إدخال ارتفاع الحزمة بالسنتيمتر",
+		"pleaseEnterDescriptionToYourDocument": "الرجاء إدخال تفاصيل المستند",
+		"documentDescriptionString": "التفاصيل",
+		"documentAppBarString": "المستندات",
+		"enterHeightInCmString": "أدخل الارتفاع بالسنتيمتر",
+		"widthString": "عرض",
+		"pleaseEnterWidthString": "الرجاء إدخال عرض الحزمة بالسنتيمتر",
+		"enterWidthInCmString": "أدخل العرض في سم",
+		"depthString": "عمق",
+		"pleaseEnterDepthString": "الرجاء إدخال عمق الحزمة بالسنتيمتر",
+		"enterDepthInCmString": "أدخل العمق في سم",
+		"weightString": "وزن",
+		"pleaseEnterWeightString": "الرجاء إدخال وزن العبوة بالكيلو جرام",
+		"enterWeightInKgString": "أدخل الوزن بالكيلو جرام",
+		"loadGoogleMapString": "تحميل خريطة جوجل",
+		"pickThisPlaceString": "اختر هذا المكان",
+		"placeMarkerOnGoogleMapPickupString": "ضع علامة على خريطة جوجل في مكان الالتقاط",
+		"pickupAddressString": "عنوان الاستلام",
+		"pleaseEnterExactPickupAddressString": "الرجاء إدخال عنوان الاستلام الدقيق",
+		"placeMarkerOnGoogleMapDeliveryString": "ضع علامة على خريطة جوجل في موقع التسليم",
+		"deliveryAddressString": "عنوان التسليم",
+		"pleaseEnterExactDeliveryAddressString": "الرجاء إدخال عنوان التسليم بالضبط",
+		"pickupString": "من",
+		"deliveryString": "توصيل",
+		"sizeString": "بحجم",
+		"distanceString": "مسافة",
+		"priceString": "السعر",
+		"backString": "عودة",
+		"payString": "دفع",
+		"continueString": "استمر"
+	},
+
+	"getFoodDeliverPage": {
+		"restaurantsString": "مطاعم",
+		"storesString": "المتاجر"
+	},
+
+	"restaurantItemsPage": {
+		"vegOnlyString": "VEG فقط",
+		"addString": "أضف",
+		"customizeString": "يعدل أو يكيف",
+		"choiceOfCoffeeString": "اختيار القهوة",
+		"moreString": "أكثر",
+		"itemTotalString": "مجموع الاشياء",
+		"addItemString": "اضافة عنصر"
+	},
+	"newOrderPage": {
+		"noNewOrdersString": "لا طلبات جديدة.",
+		"orderTitle": "عنوان الطلب",
+		"paymentModeString": "طريقة الدفع",
+		"acceptString": "قبول",
+		"paymentString": "دفع",
+		"totalPrice": "المبلغ كامل",
+		"reasonToRejectString": "سبب الرفض",
+		"writeSpecificReasonString": "اكتب سببًا محددًا لرفض الطلب",
+		"enterReasonHereString": "أدخل السبب هنا",
+		"cancelString": "إلغاء",
+		"sendString": "إرسال",
+		"orderString": "طلب",
+		"totalString": "مجموع",
+		"locationString": "موقعك",
+		"pickupLocationString": "اختر موقعا",
+		"deliveryLocationString": "موقع التسليم",
+		"customerString": "الزبون",
+		"nameString": "اسم",
+		"phoneString": "هاتف",
+		"rejectString": "رفض"
+	},
+
+
+	"cartPage": {
+		"confirmOrderString": "أكد الطلب",
+		"deliverToString": "يسلم إلى",
+		"homeString": "منزل",
+		"payNowString": "ادفع الآن",
+		"itemListString": "قائمة البند",
+		"customizeString": "يعدل أو يكيف",
+		"invoiceString": "فاتورة",
+		"itemTotalString": "مجموع الاشياء",
+		"partnerDeliveryChargesString": "رسوم توصيل الشريك",
+		"offerDiscountString": "عرض الخصم",
+		"grandTotalString": "المجموع الكلي",
+		"congratulationsString": "تهانينا! لقد حفظت",
+		"onThisOrderString": "على هذا الطلب"
+	},
+
+	"paymentPage": {
+		"paymentString": "دفع",
+		"payString": "دفع",
+		"successString": "نجاح!",
+		"yourOrderCompleteString": "تم إضافة طلبك بنجاح"
+	},
+
+	"getGroceryDeliverPage": {
+		"groceryString": "بقالة",
+		"changeStoreString": "تغيير المتجر",
+		"customizeString": "يعدل أو يكيف",
+		"choiceOfQuantityString": "اختيار الكمية",
+		"moreString": "أكثر",
+		"itemTotalString": "مجموع الاشياء",
+		"addItemString": "اضافة عنصر"
+	},
+
+	"searchPage": {
+		"searchForStoresString": "ابحث عن المتاجر أو المطاعم",
+		"yourRecentSearchesString": "عمليات البحث التي أجريتها مؤخرًا",
+		"showMoreString": "أظهر المزيد",
+		"trendingAroundYouString": "تتجه من حولك"
+	},
+
+	"ordersPage": {
+		"cashOnDeliveryString": "الدفع عند الإستلام",
+		"ordersString": "طلب",
+		"activeOrdersString": "طلبات حالية",
+		"pastOrdersString": "الطلبات السابقة",
+		"sendPackagesString": "إرسال الحزم",
+		"homeString": "منزل",
+		"pickUpString": "من",
+		"workString": "عمل",
+		"dropOffString": "إلى",
+		"paidString": "دفع",
+		"orderInProgressString": "الطلب قيد التقدم",
+		"trackOrderString": "تتبع الطلب",
+		"groceryString": "بقالة",
+		"completedString": "منجز",
+		"reOrderString": "إعادة الطلب"
+	},
+
+	"trackOrderPage": {
+		"trackOrderString": "تتبع الطلب",
+		"packageSendString": "إرسال الطرود",
+		"orderTypeString": "نوع الطلب",
+		"deliveryByString": "التوصيل بواسطه",
+		"deliveryString": "توصيل إلى",
+		"itemPickedUpString": "تم انتقاء العناصر",
+		"pickupString": "توصيل من",
+		"partnerPickedUpString": "تم استلام الشريك عناصرك وهو في طريقه إلى موقع التسليم",
+		"orderDetailsString": "تفاصيل الطلب",
+		"orderDescriptionString": "وصف الطلب",
+		"paidSuccessfullyString": "تم الدفع بنجاح",
+		"cashOnDeliveryString": "الدفع عند الإستلام"
+	},
+
+	"notificationPage": {
+		"notificationsString": "إشعارات"
+	},
+
+	"walletPage": {
+		"courierWayCashString": "CourierWay Cash",
+		"shareCodeString": "شارك الرمز ووفّر 25٪ على الأقل",
+		"referalDescString": "يحصل صديقك على 5 دولارات أمريكية نقدًا من CourierWay عند التسجيل. تحصل على 5 دولارات عندما يكملون طلبًا بقيمة دولارين أو أكثر في غضون 21 يومًا. يمكنك كسب ما يصل إلى 20 دولارًا أمريكيًا CourierWay Cash"
+	},
+
+	"profilePage": {
+		"profileString": "الملف الشخصي",
+		"notificationsString": "إشعارات",
+		"languageString": "لغة",
+		"settingsString": "إعدادات",
+		"inviteFriendsString": "ادعو أصدقاء",
+		"supportString": "الدعم",
+		"logoutString": "تسجيل خروج",
+		"sureLogoutString": "هل تريد بالتأكيد تسجيل الخروج؟",
+		"cancelString": "إلغاء"
+	},
+
+	"editProfilePage": {
+		"saveString": "حفظ",
+		"fullNameString": "الاسم بالكامل",
+		"passwordString": "كلمه السر",
+		"phoneString": "هاتف",
+		"emailString": "البريد الإلكتروني",
+		"addressString": "العنوان",
+		"chooseOptionString": "إختر خيارا",
+		"cameraString": "الة تصوير",
+		"uploadFromGalleryString": "تحميل من المعرض",
+		"changeFullNameString": "تغيير الاسم الكامل",
+		"enterYourFullNameString": "أدخل اسمك الكامل",
+		"cancelString": "إلغاء",
+		"okayString": "حسنا",
+		"changeYourPasswordString": "غير كلمة المرور الخاصة بك",
+		"oldPasswordString": "كلمة سر قديمة",
+		"newPasswordString": "كلمة مرور جديدة",
+		"confirmNewPasswordString": "تأكيد كلمة المرور الجديدة",
+		"changePhoneNumberString": "غير رقم الهاتف",
+		"enterPhoneNumberString": "أدخل رقم الهاتف",
+		"changeEmailString": "تغيير البريد الالكتروني",
+		"enterYourEmailString": "أدخل عنوان بريدك الالكتروني",
+		"changeAddressString": "تغيير العنوان",
+		"enterYourAddressString": "أدخل العنوان"
+	},
+
+	"inviteFriendPage": {
+		"inviteFriendsString": "ادعو أصدقاء",
+		"shareCodeString": "شارك الرمز ووفّر 25٪ على الأقل",
+		"referalDescString": "يحصل صديقك على 5 دولارات أمريكية نقدًا من CourierWay عند التسجيل. تحصل على 5 دولارات عندما يكملون طلبًا بقيمة دولارين أو أكثر في غضون 21 يومًا. يمكنك كسب ما يصل إلى 20 دولارًا أمريكيًا CourierWay Cash"
+	}
+}

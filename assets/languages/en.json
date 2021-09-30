@@ -1,0 +1,329 @@
+{
+	"changeLanguagePage": {
+		"changeLanguageAppBarTitle": "Language",
+		"selectLanguage": "Select Language",
+		"englishString": "English",
+		"hindiString": "Hindi",
+		"arabicString": "Arabic",
+		"chineseString": "Chinese",
+		"confirmString": "Change Language?",
+		"sureDialogueString": "Are you sure you want to change this language setting?",
+		"closeString": "Close",
+		"yesString": "Yes"
+	},
+
+	"splashScreen": {
+		"onDemandString": "on-demand delivery available 24x7"
+	},
+
+	"walkthroughPage": {
+		"welcome": "welcome",
+		"signInToContinue": "Sign in to continue",
+		"signUpToContinue": "Sign Up to continue",
+		"email": "  email",
+		"password": "password",
+		"forgotPassword": "forgotPassword ?",
+		"signIn": "SignIn",
+		"signUp": "SignUp",
+		"onDemandString": "on-demand delivery available 24x7",
+		"sendPackagesString": "Send packages",
+		"sendPackagesDescString": "Pick and drop items like keys, chargers and documents in the city",
+		"orderFoodString": "Order food",
+		"orderFoodDescString": "Order food from your favourite restaurant and we will deliver it",
+		"orderGroceryString": "Order grocery",
+		"orderGroceryDescString": "Order grocery from supermarket or grocery shop and we will deliver it",
+		"getStartedString": "Get started with CourierWay",
+		"enterMobileNumberString": "Enter your mobile number",
+		"pressBackOnceAgainString": "Press Back Once Again to Exit."
+	},
+	"signUpScreen": {
+		"welcome": "welcome",
+		"signUpToContinue": "Sign Up to continue",
+		"username": "username",
+		"pleaseEnterUsername": "please enter username",
+		"phoneNumber": "phone number: *required",
+		"pleaseEnterValidNumber": "please enter valid phone number",
+		"email": "email",
+		"pleaseEnterValidEmail": "please enter valid Email",
+		"password": "password",
+		"pleaseEnterGoodPassword": "please enter good password",
+		"pleaseConfirmPassword": "please confirm password",
+		"confirmPassword": "confirm password",
+		"youEnteredDifferentPasswords": "you entered different passwords",
+		"Address": "address",
+		"pleaseEnterRealAddress": "please enter real address",
+		"createAccount": "Create Account"
+	},
+
+	"loginPage": {
+		"enterMobileNumberString": "Enter your mobile number",
+		"createAccountString": "Create an account with your mobile number",
+		"mobileNumberString": "Mobile Number",
+		"continueString": "Continue"
+	},
+
+	"otpScreen": {
+		"verifyDetailsString": "Verify details",
+		"enterOTPString": "Enter the OTP sent to your mobile number",
+		"continueString": "Continue",
+		"pleaseWaitString": "Please Wait.."
+	},
+
+	"bottomBar": {
+		"homeString": "Home",
+		"searchString": "Search",
+		"ordersString": "Orders",
+		"notificationsString": "Notifications",
+		"walletString": "Wallet",
+		"pressBackOnceAgainString": "Press Back Once Again to Exit."
+	},
+	
+	"homePage": {
+		"homeString": "Home",
+		"searchString": "Search",
+		"ordersString": "Orders",
+		"profileString": "Profile",
+		"superString": " Super",
+		"marketString": "Market",
+		"labsString": " Labs",
+		"resultsString": "Results",
+		"documentsString": "Documents",
+		"drugsString": " Drugs &",
+		"medicineString": "Medicine",
+		"foodString": "Food &",
+		"drinksString": " Drinks",
+		"giftsString": "Gifts",
+		"ticketsString": "Tickets",
+		"telecomsStrings": "Telecoms",
+		"welcomeString": "Welcome to CourierWay",
+		"inviteFriendString": "Invite friends to Courier Pro to earn upto $20 CourierWay Cash",
+		"sendPackagesString": "Send Packages",
+		"sendPackagesDescString": "Send packages to anywhere and anytime.",
+		"getFoodDeliverString": "Get Food Deliver",
+		"getFoodDeliverDescString": "Order food and we will deliver it.",
+		"getGroceryDeliverString": "Get Grocery Deliver",
+		"getGroceryDeliverDescString": "Order grocery at your favourite store and we will deliver it."
+	},
+
+	"sendPackagePage": {
+		"headerDocumentString": "Document",
+		"headerParcelString": "Parcel",
+		"orderTypeProductsString": "Products",
+		"orderTypeString": "Order Type",
+		"selectPackageTypeString": "Select Package Type",
+		"addCouponString": "Add Coupon",
+		"couponString": "Coupon",
+		"cashOnDeliveryString": "cash On Delivery",
+		"superMarketDescriptionString": "Description",
+		"orderString": "Order",
+		"pleaseEnterFullDescription": "please Enter Full Description",
+		"superMarketAppBarString": "Super Market",
+		"enterPackageSizeWeightString": "Enter Package Size and Weight",
+		"selectPickupAddressString": "Select Pickup Address",
+		"selectDeliveryAddressString": "Select Delivery Address",
+		"confirmDetailsString": "Confirm Details",
+		"documentsString": "Documents",
+		"parcelString": "Parcel",
+		"heightString": "Height",
+		"orderTypeLapsResultsString": "Lap Result",
+		"enterGiftSizeAppBarString": "Gifts Package",
+		"drugsAndMedicineAppBarString": "Drugs & Medicine Package",
+		"lapsResultsAppBarString": "Laps Results",
+		"foodAndDrinksAppBarString": "Food & Drinks",
+		"orderTypeFoodAndDrinksDeliveryString": "food and drinks ",
+		"pleaseEnterDescriptionToYourDocument": "please enter description to your document",
+		"documentDescriptionString": "Description",
+		"documentAppBarString": "Documents",
+		"pleaseEnterHeightString": "Please Enter Package Height in cm",
+		"enterHeightInCmString": "Enter height in cm",
+		"widthString": "Width",
+		"pleaseEnterWidthString": "Please Enter Package Width in cm",
+		"enterWidthInCmString": "Enter width in cm",
+		"depthString": "Depth",
+		"pleaseEnterDepthString": "Please Enter Package Depth in cm",
+		"enterDepthInCmString": "Enter depth in cm",
+		"weightString": "Weight",
+		"pleaseEnterWeightString": "Please Enter Package Weight in kg",
+		"enterWeightInKgString": "Enter weight in kg",
+		"loadGoogleMapString": "Load Google Map",
+		"pickThisPlaceString": "Pick This Place",
+		"placeMarkerOnGoogleMapPickupString": "Place marker on google map at pickup location",
+		"pickupAddressString": "Pickup Address",
+		"pleaseEnterExactPickupAddressString": "Please enter exact pickup address",
+		"placeMarkerOnGoogleMapDeliveryString": "Place marker on google map at delivery location",
+		"deliveryAddressString": "Delivery Address",
+		"pleaseEnterExactDeliveryAddressString": "Please enter exact delivery address",
+		"pickupString": "Pickup",
+		"deliveryString": "Delivery",
+		"sizeString": "Size",
+		"distanceString": "Distance",
+		"priceString": "Price",
+		"backString": "Back",
+		"payString": "Pay",
+		"continueString": "Continue"
+	},
+
+	"getFoodDeliverPage": {
+		"restaurantsString": "Restaurants",
+		"storesString": "Stores"
+	},
+
+	"restaurantItemsPage": {
+		"vegOnlyString": "VEG ONLY",
+		"addString": "ADD",
+		"customizeString": "Customize",
+		"choiceOfCoffeeString": "Choice of Coffee",
+		"moreString": "more",
+		"itemTotalString": "Item Total",
+		"addItemString": "Add Item"
+	},
+	"newOrderPage": {
+		"noNewOrdersString": "No new orders.",
+		"orderTitle": "Order Title",
+		"paymentModeString": "Payment Mode",
+		"acceptString": "Accept",
+		"paymentString": "Payment",
+		"totalPrice": "Total Price",
+		"reasonToRejectString": "Reason to Reject",
+		"writeSpecificReasonString": "Write a specific reason to reject order",
+		"enterReasonHereString": "Enter Reason Here",
+		"cancelString": "Cancel",
+		"sendString": "Send",
+		"orderString": "Order",
+		"totalString": "Total",
+		"locationString": "Location",
+		"pickupLocationString": "Pickup Location",
+		"deliveryLocationString": "Delivery Location",
+		"customerString": "Customer",
+		"nameString": "Name",
+		"phoneString": "Phone",
+		"rejectString": "Reject"
+	},
+
+	"cartPage": {
+		"confirmOrderString": "Confirm Order",
+		"deliverToString": "Deliver to",
+		"homeString": "Home",
+		"payNowString": "Pay Now",
+		"itemListString": "Item List",
+		"customizeString": "Customize",
+		"invoiceString": "Invoice",
+		"itemTotalString": "Item total",
+		"partnerDeliveryChargesString": "Partner Delivery Charges",
+		"offerDiscountString": "Offer discount",
+		"grandTotalString": "Grand total",
+		"congratulationsString": "Congratulations! You've saved",
+		"onThisOrderString": "on this order"
+	},
+
+	"paymentPage": {
+		"paymentString": "Payment",
+		"payString": "Pay",
+		"successString": "Confirmed!",
+		"yourOrderCompleteString": "Your order successfully Confirmed"
+	},
+
+	"getGroceryDeliverPage": {
+		"groceryString": "Grocery",
+		"changeStoreString": "Change Store",
+		"customizeString": "Customize",
+		"choiceOfQuantityString": "Choice of quantity",
+		"moreString": "more",
+		"itemTotalString": "Item Total",
+		"addItemString": "Add Item"
+	},
+
+	"searchPage": {
+		"searchForStoresString": "Search for stores or restaurants",
+		"yourRecentSearchesString": "Your recent searches",
+		"showMoreString": "Show more",
+		"trendingAroundYouString": "Trending around you"
+	},
+
+	"ordersPage": {
+		"cashOnDeliveryString": "cash On Delivery",
+		"ordersString": "Orders",
+		"activeOrdersString": "Active orders",
+		"pastOrdersString": "Past orders",
+		"sendPackagesString": "Send packages",
+		"homeString": "Home",
+		"pickUpString": "PickUp",
+		"workString": "Work",
+		"dropOffString": "DropOff",
+		"paidString": "Paid",
+		"orderInProgressString": "Order in progress",
+		"trackOrderString": "Track order",
+		"groceryString": "Super market",
+		"completedString": "Completed",
+		"reOrderString": "Reorder"
+	},
+
+	"trackOrderPage": {
+		"trackOrderString": "Track order",
+		"packageSendString": "Package Send",
+		"orderTypeString": "Order Type",
+		"deliveryByString": "Delivery by",
+		"deliveryString": "Delivery",
+		"pickupString": "Pickup",
+		"itemPickedUpString": "Items have been picked up",
+		"partnerPickedUpString": "Partner have been picked up your items and is on his way to the delivery location",
+		"orderDetailsString": "Order Details",
+		"orderDescriptionString": "Description",
+		"paidSuccessfullyString": "Paid successfully",
+		"cashOnDeliveryString": "cash On Delivery"
+	},
+
+	"notificationPage": {
+		"notificationsString": "Notifications"
+	},
+
+	"walletPage": {
+		"courierWayCashString": "CourierWay Cash",
+		"shareCodeString": "Share code & save at least 25%",
+		"referalDescString": "Your friend gets $5 CourierWay cash on sign up. You get $5 when they complete an order of $2 or more within 21 days. You can earn upto $20 CourierWay Cash."
+	},
+
+	"profilePage": {
+		"profileString": "Profile",
+		"notificationsString": "Notifications",
+		"languageString": "Language",
+		"settingsString": "Settings",
+		"inviteFriendsString": "Invite Friends",
+		"supportString": "Support",
+		"logoutString": "Logout",
+		"sureLogoutString": "You sure want to logout?",
+		"cancelString": "Cancel"
+	},
+
+	"editProfilePage": {
+		"saveString": "Save",
+		"fullNameString": "Full Name",
+		"passwordString": "Password",
+		"phoneString": "Phone",
+		"emailString": "Email",
+		"addressString": "Address",
+		"chooseOptionString": "Choose Option",
+		"cameraString": "Camera",
+		"uploadFromGalleryString": "Upload from Gallery",
+		"changeFullNameString": "Change Full Name",
+		"enterYourFullNameString": "Enter Your Full Name",
+		"cancelString": "Cancel",
+		"okayString": "Okay",
+		"changeYourPasswordString": "Change Your Password",
+		"oldPasswordString": "Old Password",
+		"newPasswordString": "New Password",
+		"confirmNewPasswordString": "Confirm New Password",
+		"changePhoneNumberString": "Change Phone Number",
+		"enterPhoneNumberString": "Enter Phone Number",
+		"changeEmailString": "Change Email",
+		"enterYourEmailString": "Enter Your Email Address",
+		"changeAddressString": "Change Address",
+		"enterYourAddressString": "Enter you address"
+	},
+
+	"inviteFriendPage": {
+		"inviteFriendsString": "Invite Friends",
+		"shareCodeString": "Share code & save at least 25%",
+		"referalDescString": "Your friend gets $5 CourierWay cash on sign up. You get $5 when they complete an order of $2 or more within 21 days. You can earn upto $20 CourierWay Cash."
+	}
+}
