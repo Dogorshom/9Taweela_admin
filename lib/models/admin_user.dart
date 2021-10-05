@@ -1,4 +1,4 @@
-class User{
+class AdminUser{
   String? id;
   String? name;
   String? email;
@@ -7,6 +7,6 @@ class User{
   String? imageURL;
   bool  ? emailVerified;
   final String? userType = "Admin";
-  User({this.id,this.name,this.email,this.phoneNumber
+  AdminUser({this.id,this.name,this.email,this.phoneNumber
     ,this.address,this.imageURL,this.emailVerified});
 }

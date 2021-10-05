@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 Color scaffoldBgColor = Color(0xFFF4F4F4);
 Color primaryColor = Color(0xFF242E4D);
@@ -349,3 +350,82 @@ TextStyle searchTextStyle = TextStyle(
   fontFamily: 'Roboto',
   fontWeight: FontWeight.w500,
 );
+
+extension CapExtension on String {
+  String get inCaps => '${this[0].toUpperCase()}${this.substring(1)}';
+  String get allInCaps => this.toUpperCase();
+  String get capitalizeFirstOfEach => this.split(" ").map((str) => str.capitalizeFirstOfEach).join(" ");
+
+}
+
+void customLaunch(command) async {
+  if (await canLaunch(command)) {
+    await launch(command);
+  } else {
+    print("sorry, unavailable command");
+  }
+}
+
+getBackgroundStack(BuildContext context){
+  double screenWidth = MediaQuery.of(context).size.width;
+  double screenHeight = MediaQuery.of(context).size.height;
+  double iconSize = screenWidth > 600 ? 30.0:15.0;
+  double drawerWidth = screenWidth > 600 ? 200:100;
+  return Stack(
+    children: [
+      Container (
+        height:screenHeight,
+        width: drawerWidth,
+        color: lightOrange,
+        child: Column(
+          children: [
+            //9Taweela Logo
+            Row(
+              children: [
+                Image.asset("assets/background/taweela_main_logo_without_text.png",width: drawerWidth*0.3,),
+                Image.asset("assets/background/taweela_text_logo.png",width: drawerWidth*0.5,),
+              ],
+            ),
+          ],
+        ),
+      ),
+
+      Positioned(
+          right: 10,
+          top: 10,
+          child: SizedBox(
+            height: 40,
+            width: 250,
+            child: Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: fixPadding),
+                  child: Image.asset("assets/icons/courier.png",height: 30,),
+                ),
+                const Expanded(
+                    child: Text("Ahmed Khalid Mohammed")
+                ),
+                const Icon(Icons.arrow_drop_down)
+              ],
+            ),
+          )),
+      Positioned(
+        left: 0,
+        bottom: 0,
+        child: Opacity(
+            opacity: 0.2,
+            child: Image.asset("assets/banners/motor_logo_for_splash.png",width: 250,)),
+      ),
+      Positioned(
+        right: 0,
+        bottom: 0,
+        child: Opacity(
+            opacity: 0.2,
+            child: Image.asset("assets/background/bottom_corner_logo_gray.png",width: screenWidth*0.25,)),
+      ),
+      Positioned(top: 0,left: drawerWidth,
+        child: Image.asset("assets/background/top_corner_logo_white.png",height: 100,),
+      )
+    ],
+  );
+}

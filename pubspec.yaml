@@ -46,6 +46,10 @@ dependencies:
   firebase_messaging: ^10.0.7
   shared_preferences: ^2.0.7
   table_calendar: ^3.0.2
+  cached_network_image: ^3.1.0
+  url_launcher: ^6.0.12
+
+
 
 
 dev_dependencies:
@@ -83,6 +87,7 @@ flutter:
     - assets/languages/
     - assets/country_flag/
     - assets/background/
+    - assets/banners/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

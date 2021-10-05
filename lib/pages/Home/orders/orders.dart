@@ -2,26 +2,27 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:taweela_admin/constant/constant.dart';
 import 'package:taweela_admin/models/driver_from_firebase.dart';
+import 'package:taweela_admin/models/order.dart';
 import 'package:taweela_admin/models/user_from_firebase.dart';
 import 'package:taweela_admin/pages/Home/customers/customer_details.dart';
 import 'package:taweela_admin/pages/Home/drivers/driver_details.dart';
-import 'package:taweela_admin/services/search/search_deiver.dart';
+import 'package:taweela_admin/pages/Home/orders/order_details.dart';
 import 'package:taweela_admin/services/search/search_order.dart';
 import 'package:taweela_admin/services/search/search_user.dart';
 
-class DriversScreen extends StatefulWidget {
-  const DriversScreen({Key? key}) : super(key: key);
+class OrdersScreen extends StatefulWidget {
+  const OrdersScreen({Key? key}) : super(key: key);
 
   @override
-  _DriversScreenState createState() => _DriversScreenState();
+  _OrdersScreenState createState() => _OrdersScreenState();
 }
 
-class _DriversScreenState extends State<DriversScreen> {
+class _OrdersScreenState extends State<OrdersScreen> {
   final TextEditingController searchController =  TextEditingController();
   String? phoneNumber = "";
-  bool driverSelected = false;
-  DriverFromFirebase? driverFromFirebase;
-  SearchForDriver searchForDriver = SearchForDriver();
+  bool orderSelected = false;
+  Order currentOrder = Order();
+  SearchForOrder searchForOrder = SearchForOrder();
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
@@ -59,7 +60,6 @@ class _DriversScreenState extends State<DriversScreen> {
             //     ],),
             //   ),
             // ),
-            const SizedBox(height:30),
             Container(
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
@@ -88,7 +88,7 @@ class _DriversScreenState extends State<DriversScreen> {
                             setState((){
                               searchController.clear();
                               phoneNumber = "";
-                              driverSelected = false;
+                              orderSelected = false;
                             });
                           },
                           icon:const Icon(Icons.clear)
@@ -97,18 +97,19 @@ class _DriversScreenState extends State<DriversScreen> {
                   onChanged: (val) {
                     setState(() {
                       phoneNumber = val;
-                      driverSelected = false;
+                      orderSelected = false;
                     });
                   },
                 ),
               ),
             ),
-            driverSelected?
-            DriverDetails(driverFromFirebase: driverFromFirebase!)
+            const SizedBox(height: fixPadding,),
+            orderSelected?
+            OrderDetails(order: currentOrder)
                 :StreamBuilder<QuerySnapshot>(
               stream: phoneNumber != "" && phoneNumber != null&& phoneNumber!.length==10
-                  ? searchForDriver.searchByExactPhoneNumber(phoneNumber)
-                  :searchForDriver.searchByPComparingPhoneNumber(phoneNumber),
+                  ? searchForOrder.searchByExactPhoneNumber(phoneNumber)
+                  :searchForOrder.searchByPComparingPhoneNumber(phoneNumber),
               builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
                 if (snapshot.hasError) {
                   print("${snapshot.error}");
@@ -127,7 +128,7 @@ class _DriversScreenState extends State<DriversScreen> {
                       child: ListView.builder(
                           itemCount: snapshot.data!.docs.length,
                           itemBuilder: (context,index) {
-                            return getTileWithDriverInformation(index,snapshot);
+                            return getTileWithOrderInformation(index,snapshot);
                           }),
                     ),
                   );
@@ -140,36 +141,60 @@ class _DriversScreenState extends State<DriversScreen> {
     );
   }
 
-  Widget getTileWithDriverInformation(int index, AsyncSnapshot<QuerySnapshot<Object?>> snapshot) {
-    var user = snapshot.data!.docs[index];
-    driverFromFirebase = DriverFromFirebase(
-        id:user['id'],
-        name: user['name'],
-        phoneNumber: user['phoneNumber'],
-        imageURL: user['imageURL'],
-        address: user['address'],
-        email: user['email'],
-        provider: user['provider']
+  Widget getTileWithOrderInformation(int index,AsyncSnapshot<QuerySnapshot<Object?>> snapshot) {
+    var order = snapshot.data!.docs[index];
+    currentOrder =Order(
+        id                          : order.id,
+        title                       : order["title"],
+        orderStatus                 : order["orderStatus"],
+        description                 : order["description"],
+        height                      : order["height"],
+        width                       : order["width"],
+        depth                       : order["depth"],
+        weight                      : order["weight"],
+        pickUpLocationLine          : order["pickUpLocation"],
+        dropOffLocationLine         : order["dropOffLocation"],
+        // comment: v["comment"],
+        nameOfOrderDriver           : order["nameOfOrderDriver"],
+        phoneNumberOfOrderDriver    : order["phoneNumberOfOrderDriver"],
+        // priceWithoutDelivery:v["totalPriceWithoutDelivery"] ,
+        deliveryPrice               : order["deliveryPrice"],
+        deliveryPriceWithPromotion  : order["deliveryPriceWithPromotion"],
+        promotion                   : order["promotion"],
+        nameOfOrderUser             : order["nameOfOrderUser"],
+        phoneNumberOfOrderUser      : order["phoneNumberOfOrderUser"] ,
+        orderBeginDate              : DateTime.parse(order['published_at'])
+
     );
     return  Column(
       children: [
         ListTile(
-          title: Text("${user['name']}",style: blackLargeTextStyle,),
-          subtitle: Text("${user['phoneNumber']}"),
+          title: Text("${order['nameOfOrderUser']}",style: blackLargeTextStyle,),
+          subtitle: Text("${order['phoneNumberOfOrderUser']}"),
+          trailing: Text("${order['orderStatus']}"),
           onTap: (){
-            driverFromFirebase!.id = user['id'];
-            driverFromFirebase!.name = user['name'];
-            driverFromFirebase!.imageURL = user['imageURL'];
-            driverFromFirebase!.phoneNumber = user['phoneNumber'];
-            driverFromFirebase!.email = user['email'];
-            driverFromFirebase!.address = user['address'];
-            driverFromFirebase!.provider = user['provider'];
-            // driverFromFirebase!.carModel = user['carModel'];
-            // driverFromFirebase!.carColor = user['carColor'];
+            currentOrder.id    = order.id;
+            currentOrder.title = order["title"];
+            currentOrder.orderStatus = order["orderStatus"];
+            currentOrder.description = order["description"];
+            currentOrder.height = order["height"];
+            currentOrder.width  = order["width"];
+            currentOrder.depth  = order["depth"];
+            currentOrder.weight = order["weight"];
+            currentOrder.pickUpLocationLine = order["pickUpLocation"];
+            currentOrder.dropOffLocationLine = order["dropOffLocation"];
+            // order.comment = value["comment"];
+            currentOrder.deliveryPrice = order["deliveryPrice"];
+            currentOrder.deliveryPriceWithPromotion = order["deliveryPriceWithPromotion"];
+            currentOrder.promotion = order["promotion"];
+            currentOrder.nameOfOrderUser = order["nameOfOrderUser"];
+            currentOrder.phoneNumberOfOrderUser = order["phoneNumberOfOrderUser"];
+            currentOrder.nameOfOrderDriver = order["nameOfOrderDriver"];
+            currentOrder.phoneNumberOfOrderDriver = order["phoneNumberOfOrderDriver"];
+            currentOrder.orderBeginDate = DateTime.parse(order["published_at"]);
             setState(() {
-              driverSelected = true;
+              orderSelected = true;
             });
-            // CustomerDetails(userFromFirebase: userFromFirebase,);
           },
         ),
         const Padding(
@@ -179,5 +204,4 @@ class _DriversScreenState extends State<DriversScreen> {
       ],
     );
   }
-
 }
